@@ -1,0 +1,124 @@
+/* ===================== 页面布局 ===================== */
+.editor-page-layout {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+/* ===================== 顶部 Header ===================== */
+.editor-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: linear-gradient(135deg, #1677ff 0%, #0958d9 100%);
+  box-shadow: 0 2px 8px rgba(22, 119, 255, 0.3);
+  height: 56px;
+  line-height: 56px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-icon {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* ===================== 内容区 ===================== */
+.editor-page-content {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ===================== 编辑器卡片 ===================== */
+.editor-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+.editor-card .ant-card-head {
+  background: #fafafa;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 46px;
+}
+
+/* ===================== 预览 ===================== */
+.preview-content {
+  padding: 48px 72px;
+  min-height: 600px;
+  font-family: 'Georgia', 'Noto Serif SC', serif;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #1a1a1a;
+}
+
+/* ===================== HTML 源码 ===================== */
+.html-source {
+  background: #1e1e2e;
+  padding: 24px;
+  min-height: 600px;
+  overflow: auto;
+}
+
+.html-source pre {
+  margin: 0;
+  color: #cdd6f4;
+  font-family: 'SFMono-Regular', 'Consolas', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* ===================== 提示卡片 ===================== */
+.tips-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.tip-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #f0f0f0;
+}
+
+.tip-item .ant-typography-secondary {
+  font-size: 12px;
+}
+
+/* ===================== 响应式 ===================== */
+@media (max-width: 768px) {
+  .editor-page-content {
+    padding: 12px;
+  }
+
+  .preview-content {
+    padding: 24px 20px;
+  }
+
+  .editor-page-header {
+    padding: 0 12px;
+  }
+}
