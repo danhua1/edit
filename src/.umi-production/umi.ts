@@ -10,7 +10,7 @@ import { createHistory } from './core/history';
 import { ApplyPluginsType } from 'umi';
 
 
-const publicPath = "/";
+const publicPath = "/util/fullEdit/";
 const runtimePublicPath = false;
 
 async function render() {
@@ -33,7 +33,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/';
+  const basename = contextOpts.basename || '/util/fullEdit';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({

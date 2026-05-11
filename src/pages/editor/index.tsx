@@ -11,7 +11,6 @@ const { Title, Paragraph, Text } = Typography;
 
 const INITIAL_CONTENT = `
 <h1>富文本编辑器 Demo</h1>
-<p>这是一个基于 <strong>React + Tiptap + antd + UMI</strong> 的简单演示，用来验证常见文档排版和图片处理能力。</p>
 <h2>核心能力</h2>
 <ul>
   <li><strong>图片上传</strong>：支持按钮选择、直接拖拽到编辑区、截图粘贴。</li>
@@ -81,9 +80,6 @@ export default function EditorPage() {
         </div>
 
         <Space wrap>
-          <Tag color="processing">Tiptap</Tag>
-          <Tag color="success">Ant Design</Tag>
-          <Tag color="geekblue">UMI</Tag>
           <Button
             type="primary"
             icon={<CheckCircleOutlined />}
@@ -132,10 +128,6 @@ export default function EditorPage() {
             <div className="tip-item">
               <Text strong>拖拽上传</Text>
               <Text type="secondary">把本地图片拖进编辑器，确认落点位置是否正确。</Text>
-            </div>
-            <div className="tip-item">
-              <Text strong>移动端排版</Text>
-              <Text type="secondary">页面已做基础响应式收缩，适合继续扩展成业务页。</Text>
             </div>
           </div>
         </Card>

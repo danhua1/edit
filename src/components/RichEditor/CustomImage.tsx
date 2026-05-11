@@ -48,8 +48,13 @@ export const CustomImage = Image.extend({
         },
       },
       align: {
-        default: 'left',
+        default: null,
         parseHTML: (element) => {
+          const display = element.style.display;
+          if (display !== 'block') {
+            return null;
+          }
+
           const marginLeft = element.style.marginLeft;
           const marginRight = element.style.marginRight;
 
@@ -64,13 +69,15 @@ export const CustomImage = Image.extend({
           return 'left';
         },
         renderHTML: (attributes) => {
-          const align = attributes.align || 'left';
+          if (!attributes.align) {
+            return {};
+          }
 
-          if (align === 'center') {
+          if (attributes.align === 'center') {
             return { style: 'display: block; margin: 12px auto;' };
           }
 
-          if (align === 'right') {
+          if (attributes.align === 'right') {
             return { style: 'display: block; margin: 12px 0 12px auto;' };
           }
 

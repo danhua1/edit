@@ -59,14 +59,17 @@ const ImageComponent = (props: any) => {
 
     return (
         <NodeViewWrapper
+            as="span"
             className="custom-image-node"
             contentEditable={false}
+            style={{ display: 'inline-block', verticalAlign: 'top' }}
         >
-            <div
-                ref={containerRef}
+            <span
+                ref={containerRef as any}
                 style={{
                     position: 'relative',
-                    width: node.attrs.width || '300px',
+                    width: node.attrs.width || 'auto',
+                    maxWidth: '100%',
                     display: 'inline-block',
                 }}
             >
@@ -80,7 +83,7 @@ const ImageComponent = (props: any) => {
                 />
 
                 {/* resize handle */}
-                <div
+                <span
                     onMouseDown={startResize}
                     style={{
                         width: 12,
@@ -91,9 +94,10 @@ const ImageComponent = (props: any) => {
                         bottom: -6,
                         cursor: 'nwse-resize',
                         borderRadius: '50%',
+                        display: 'inline-block',
                     }}
                 />
-            </div>
+            </span>
         </NodeViewWrapper>
     );
 };

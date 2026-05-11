@@ -50,6 +50,7 @@
       "@tiptap/react": "^2.4.0",
       "@tiptap/starter-kit": "^2.4.0",
       "antd": "^5.17.0",
+      "html-react-parser": "^6.1.0",
       "react": "^18.3.0",
       "react-dom": "^18.3.0",
       "umi": "^4.2.0"
@@ -69,7 +70,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -96,7 +97,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            11
+            0
           ]
         },
         "register": 2
@@ -160,10 +161,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            3
+            15
           ]
         },
-        "register": 17
+        "register": 13
       },
       "enableBy": "register"
     },
@@ -213,7 +214,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -226,7 +227,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config"
     },
@@ -243,7 +244,7 @@
             0
           ]
         },
-        "register": 6
+        "register": 5
       },
       "enableBy": "register"
     },
@@ -1109,7 +1110,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1138,7 +1139,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 57
+        "register": 55
       },
       "enableBy": "register"
     },
@@ -1164,7 +1165,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 7
       },
       "enableBy": "config"
     },
@@ -1178,7 +1179,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1232,7 +1233,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config"
     },
@@ -1245,7 +1246,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
@@ -1312,7 +1313,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1325,7 +1326,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config"
     },
@@ -1338,7 +1339,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1415,7 +1416,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register"
     },
@@ -1428,7 +1429,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1454,7 +1455,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1479,7 +1480,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 15
+        "register": 14
       },
       "enableBy": "config"
     },
@@ -1583,7 +1584,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "config"
     },
@@ -1620,7 +1621,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 18
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/forget/forget": {
@@ -1671,7 +1672,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 25
+        "register": 26
       },
       "enableBy": "register"
     },
@@ -1684,7 +1685,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 18
       }
     },
     "./node_modules/@umijs/preset-umi/dist/commands/help": {
@@ -1696,7 +1697,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1722,7 +1723,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -1735,7 +1736,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1774,7 +1775,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -1787,7 +1788,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1865,7 +1866,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1878,7 +1879,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -1930,7 +1931,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 18
       },
       "enableBy": "register"
     },
@@ -1943,7 +1944,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1956,7 +1957,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1969,7 +1970,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     }
@@ -1987,7 +1988,10 @@
         "component": "editor/index"
       }
     ],
-    "title": "Rich Editor Demo"
+    "title": "Rich Editor Demo",
+    "base": "/util/fullEdit",
+    "outputPath": "dist/util/fullEdit/",
+    "publicPath": "/util/fullEdit/"
   },
   "mainConfigFile": "/Users/dusiyuan/Documents/edit/files/.umirc.ts",
   "config": {
@@ -1998,9 +2002,9 @@
     "history": {
       "type": "browser"
     },
-    "base": "/",
+    "base": "/util/fullEdit",
     "svgr": {},
-    "publicPath": "/",
+    "publicPath": "/util/fullEdit/",
     "mfsu": {
       "strategy": "eager"
     },
@@ -2025,6 +2029,7 @@
       }
     ],
     "title": "Rich Editor Demo",
+    "outputPath": "dist/util/fullEdit/",
     "targets": {
       "chrome": 80
     }
@@ -2035,7 +2040,7 @@
       "file": "@/pages/editor/index.tsx",
       "id": "1",
       "absPath": "/",
-      "__content": "import { useState } from 'react';\nimport { CheckCircleOutlined, CodeOutlined, EyeOutlined, FileTextOutlined } from '@ant-design/icons';\nimport { App, Button, Card, Layout, Space, Tabs, Tag, Typography } from 'antd';\nimport RichEditor from '@/components/RichEditor';\nimport './index.css';\n\nconst { Header, Content } = Layout;\nconst { Title, Paragraph, Text } = Typography;\n\nconst INITIAL_CONTENT = `\n<h1>富文本编辑器 Demo</h1>\n<p>这是一个基于 <strong>React + Tiptap + antd + UMI</strong> 的简单演示，用来验证常见文档排版和图片处理能力。</p>\n<h2>核心能力</h2>\n<ul>\n  <li><strong>图片上传</strong>：支持按钮选择、直接拖拽到编辑区、截图粘贴。</li>\n  <li><strong>文档排版</strong>：支持标题、颜色、字体、字号、列表、引用、表格与分隔线。</li>\n  <li><strong>Word / WPS 粘贴</strong>：粘贴富文本时尽量保留结构和常见样式。</li>\n</ul>\n<blockquote>\n  <p>可以直接把 Word 中的一段正文、表格或者带图片的内容复制到这里试一下。</p>\n</blockquote>\n<h3>示例表格</h3>\n<table>\n  <tbody>\n    <tr><th>模块</th><th>状态</th><th>说明</th></tr>\n    <tr><td>图片拖拽</td><td>已支持</td><td>拖入本地图片文件即可插入</td></tr>\n    <tr><td>截图粘贴</td><td>已支持</td><td>微信截图、系统截图都可直接粘贴</td></tr>\n    <tr><td>富文本粘贴</td><td>已支持</td><td>Word/WPS 常见段落、列表、表格会保留</td></tr>\n  </tbody>\n</table>\n<p>下面开始自由编辑内容。</p>\n`;\n\nconst tabItems = [\n  {\n    key: 'editor',\n    label: (\n      <span>\n        <FileTextOutlined /> 编辑\n      </span>\n    ),\n  },\n  {\n    key: 'preview',\n    label: (\n      <span>\n        <EyeOutlined /> 预览\n      </span>\n    ),\n  },\n  {\n    key: 'html',\n    label: (\n      <span>\n        <CodeOutlined /> HTML\n      </span>\n    ),\n  },\n];\n\nexport default function EditorPage() {\n  const { message } = App.useApp();\n  const [html, setHtml] = useState(INITIAL_CONTENT);\n  const [activeTab, setActiveTab] = useState('editor');\n\n  return (\n    <Layout className=\"editor-page-layout\">\n      <Header className=\"editor-page-header\">\n        <div>\n          <Tag bordered={false} color=\"blue\">\n            Demo\n          </Tag>\n          <Title level={3} className=\"editor-page-title\">\n            Rich Editor Playground\n          </Title>\n          <Paragraph className=\"editor-page-subtitle\">\n            面向简单内容编辑场景，优先验证排版、图片上传与 Office 粘贴体验。\n          </Paragraph>\n        </div>\n\n        <Space wrap>\n          <Tag color=\"processing\">Tiptap</Tag>\n          <Tag color=\"success\">Ant Design</Tag>\n          <Tag color=\"geekblue\">UMI</Tag>\n          <Button\n            type=\"primary\"\n            icon={<CheckCircleOutlined />}\n            onClick={() => message.success('示例保存成功，可接入接口继续扩展')}\n          >\n            保存示例\n          </Button>\n        </Space>\n      </Header>\n\n      <Content className=\"editor-page-content\">\n        <Card className=\"editor-card\" bordered={false}>\n          <Tabs activeKey={activeTab} items={tabItems} onChange={setActiveTab} />\n\n          {activeTab === 'editor' && (\n            <RichEditor value={html} onChange={setHtml} minHeight={620} />\n          )}\n\n          {activeTab === 'preview' && (\n            <div className=\"preview-shell\">\n              <div\n                className=\"preview-content tiptap-content\"\n                dangerouslySetInnerHTML={{ __html: html }}\n              />\n            </div>\n          )}\n\n          {activeTab === 'html' && (\n            <div className=\"html-source\">\n              <pre>{html}</pre>\n            </div>\n          )}\n        </Card>\n\n        <Card className=\"tips-card\" bordered={false} title=\"建议测试项\">\n          <div className=\"tips-grid\">\n            <div className=\"tip-item\">\n              <Text strong>Word 粘贴</Text>\n              <Text type=\"secondary\">复制标题、列表、表格，检查结构是否保留。</Text>\n            </div>\n            <div className=\"tip-item\">\n              <Text strong>截图粘贴</Text>\n              <Text type=\"secondary\">系统截图后直接粘贴，图片会以内嵌 base64 插入。</Text>\n            </div>\n            <div className=\"tip-item\">\n              <Text strong>拖拽上传</Text>\n              <Text type=\"secondary\">把本地图片拖进编辑器，确认落点位置是否正确。</Text>\n            </div>\n            <div className=\"tip-item\">\n              <Text strong>移动端排版</Text>\n              <Text type=\"secondary\">页面已做基础响应式收缩，适合继续扩展成业务页。</Text>\n            </div>\n          </div>\n        </Card>\n      </Content>\n    </Layout>\n  );\n}\n",
+      "__content": "import { useState } from 'react';\nimport { CheckCircleOutlined, CodeOutlined, EyeOutlined, FileTextOutlined } from '@ant-design/icons';\nimport { App, Button, Card, Layout, Space, Tabs, Tag, Typography, message } from 'antd';\nimport RichEditor from '@/components/RichEditor';\nimport './index.css';\nimport './rich.css'\nimport RichTextPreview from '@/components/pre/RichTextPreview';\n\nconst { Header, Content } = Layout;\nconst { Title, Paragraph, Text } = Typography;\n\nconst INITIAL_CONTENT = `\n<h1>富文本编辑器 Demo</h1>\n<h2>核心能力</h2>\n<ul>\n  <li><strong>图片上传</strong>：支持按钮选择、直接拖拽到编辑区、截图粘贴。</li>\n  <li><strong>文档排版</strong>：支持标题、颜色、字体、字号、列表、引用、表格与分隔线。</li>\n  <li><strong>Word / WPS 粘贴</strong>：粘贴富文本时尽量保留结构和常见样式。</li>\n</ul>\n<blockquote>\n  <p>可以直接把 Word 中的一段正文、表格或者带图片的内容复制到这里试一下。</p>\n</blockquote>\n<h3>示例表格</h3>\n<table>\n  <tbody>\n    <tr><th>模块</th><th>状态</th><th>说明</th></tr>\n    <tr><td>图片拖拽</td><td>已支持</td><td>拖入本地图片文件即可插入</td></tr>\n    <tr><td>截图粘贴</td><td>已支持</td><td>微信截图、系统截图都可直接粘贴</td></tr>\n    <tr><td>富文本粘贴</td><td>已支持</td><td>Word/WPS 常见段落、列表、表格会保留</td></tr>\n  </tbody>\n</table>\n<p>下面开始自由编辑内容。</p>\n`;\n\nconst tabItems = [\n  {\n    key: 'editor',\n    label: (\n      <span>\n        <FileTextOutlined /> 编辑\n      </span>\n    ),\n  },\n  {\n    key: 'preview',\n    label: (\n      <span>\n        <EyeOutlined /> 预览\n      </span>\n    ),\n  },\n  {\n    key: 'html',\n    label: (\n      <span>\n        <CodeOutlined /> HTML\n      </span>\n    ),\n  },\n];\n\nexport default function EditorPage() {\n  // const { message } = App.useApp();\n  const [html, setHtml] = useState(INITIAL_CONTENT);\n  const [activeTab, setActiveTab] = useState('editor');\n\n  return (\n    <Layout className=\"editor-page-layout\">\n      <Header className=\"editor-page-header\">\n        <div>\n          <Tag bordered={false} color=\"blue\">\n            Demo\n          </Tag>\n          <Title level={3} className=\"editor-page-title\">\n            Rich Editor Playground\n          </Title>\n          <Paragraph className=\"editor-page-subtitle\">\n            面向简单内容编辑场景，优先验证排版、图片上传与 Office 粘贴体验。\n          </Paragraph>\n        </div>\n\n        <Space wrap>\n          <Button\n            type=\"primary\"\n            icon={<CheckCircleOutlined />}\n            onClick={() => {\n              console.log(html)\n              message.success('示例保存成功，可接入接口继续扩展')\n            }}\n          >\n            保存示例\n          </Button>\n        </Space>\n      </Header>\n\n      <Content className=\"editor-page-content\">\n        <Card className=\"editor-card\" bordered={false}>\n          <Tabs activeKey={activeTab} items={tabItems} onChange={setActiveTab} />\n\n          {activeTab === 'editor' && (\n            <RichEditor value={html} onChange={setHtml} minHeight={620} />\n          )}\n\n          {activeTab === 'preview' && (\n            <div className=\"preview-shell rich-text-content\">\n              {/* <div dangerouslySetInnerHTML={{ __html: html }} /> */}\n              <RichTextPreview html={html} />\n            </div>\n          )}\n\n          {activeTab === 'html' && (\n            <div className=\"html-source\">\n              <pre>{html}</pre>\n            </div>\n          )}\n        </Card>\n\n        <Card className=\"tips-card\" bordered={false} title=\"建议测试项\">\n          <div className=\"tips-grid\">\n            <div className=\"tip-item\">\n              <Text strong>Word 粘贴</Text>\n              <Text type=\"secondary\">复制标题、列表、表格，检查结构是否保留。</Text>\n            </div>\n            <div className=\"tip-item\">\n              <Text strong>截图粘贴</Text>\n              <Text type=\"secondary\">系统截图后直接粘贴，图片会以内嵌 base64 插入。</Text>\n            </div>\n            <div className=\"tip-item\">\n              <Text strong>拖拽上传</Text>\n              <Text type=\"secondary\">把本地图片拖进编辑器，确认落点位置是否正确。</Text>\n            </div>\n          </div>\n        </Card>\n      </Content>\n    </Layout>\n  );\n}\n",
       "__isJSFile": true,
       "__absFile": "/Users/dusiyuan/Documents/edit/files/src/pages/editor/index.tsx"
     }
@@ -2064,11 +2069,14 @@
     "path": "/Users/dusiyuan/Documents/edit/files/node_modules/react-dom"
   },
   "appJS": null,
-  "locale": "C",
+  "locale": "en-US",
   "globalCSS": [],
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
+  "git": {
+    "originUrl": "git@github.com:danhua1/edit.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.9.3",

@@ -102,7 +102,7 @@ const RichEditor = ({
         defaultProtocol: 'https',
       }),
       Placeholder.configure({ placeholder }),
-      CustomImage.configure({ inline: false, allowBase64: true }),
+      CustomImage.configure({ inline: true, allowBase64: true }),
       Table.configure({ resizable: true }),
       TableRow,
       TableHeader,
